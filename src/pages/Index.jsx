@@ -33,7 +33,7 @@ const Index = () => {
         </Box>
       </Box>
       <Flex justify="center" align="center" width="100%">
-        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={8} textAlign="center">
+        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={8} alignitems ="center" textAlign="center">
           <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
             <Box textAlign="center">
               <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
