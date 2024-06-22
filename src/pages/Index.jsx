@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Container, SimpleGrid, Link, Box, keyframes } from "@chakra-ui/react";
-import { FaCalendar, FaEnvelope, FaFilePdf, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const typing = keyframes`
   from { width: 0 }
@@ -33,19 +33,20 @@ const Index = () => {
         </Box>
       </Box>
       <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} textAlign="center">
-        <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
+        <Link href="https://www.linkedin.com/company/collectivevc" isExternal>
           <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Profile</Text>
         </Link>
 
         <Link href="https://www.youtube.com/@collectivevc" isExternal>
           <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Podcast</Text>
         </Link>
 
-        <Link href="https://www.collectivevc.substack.com" isExternal>
+        <Link href="https://collectivevc.substack.com" isExternal>
           <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Newsletter</Text>
+        </Link>
+
+        <Link href="https://chat.whatsapp.com/CcIGrlvEwuG9pnvl7COITj" isExternal>
+          <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
         </Link>
 
         <Link href="https://www.oliverbonallack.com" isExternal>
