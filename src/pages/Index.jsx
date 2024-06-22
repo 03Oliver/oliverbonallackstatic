@@ -36,49 +36,49 @@ const Index = () => {
         <SimpleGrid columns={{ base: 2, md: 3 }} spacing={8} alignitems ="center" textAlign="center">
           <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaLinkedin} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">LinkedIn</Text>
             </Box>
           </Link>
 
           <Link href="https://www.youtube.com/@collectivevc" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaYoutube} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">YouTube</Text>
             </Box>
           </Link>
 
           <Link href="https://collectivevc.substack.com" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaEnvelope} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Substack</Text>
             </Box>
           </Link>
 
           <Link href="tel:+447572794778" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaWhatsapp} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">WhatsApp</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaFilePdf} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">CV</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaFilePdf} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Portfolio Deck</Text>
             </Box>
           </Link>
 
           <Link href="https://www.calendly.com/oliverbonallack" isExternal>
             <Box textAlign="center" alignitems ="center">
-              <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+              <Box as={FaCalendar} alignitems ="center" size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
               <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Calendly</Text>
             </Box>
           </Link>
