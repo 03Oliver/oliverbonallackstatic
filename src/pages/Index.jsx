@@ -26,60 +26,60 @@ const Index = () => {
   }, [fullText]);
 
   return (
-    <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bgGradient="linear(to-r, white, gray.800)" color="black" fontFamily="Roboto, sans-serif" overflow="hidden">
+    <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bgGradient="linear(to-r, white, lightblue)" color="black" fontFamily="Roboto, sans-serif" overflow="hidden">
       <Box textAlign="center" mb={8}>
         <Box as="pre" fontSize="2xl" whiteSpace="nowrap" overflow="hidden" borderRight="2px solid" animation={`${typing} 4s steps(${fullText.length}), ${blink} 0.75s step-end infinite`}>
           {text}
         </Box>
       </Box>
       <Flex justify="center" align="center" width="100%">
-        <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} textAlign="center">
+        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={8} textAlign="center">
           <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
             <Box>
               <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>LinkedIn</Text>
+              <Text mt={0.5}>LinkedIn</Text>
             </Box>
           </Link>
 
           <Link href="https://www.youtube.com/@collectivevc" isExternal>
             <Box>
               <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>YouTube</Text>
+              <Text mt={0.5}>YouTube</Text>
             </Box>
           </Link>
 
           <Link href="https://collectivevc.substack.com" isExternal>
             <Box>
               <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>Substack</Text>
+              <Text mt={0.5}>Substack</Text>
             </Box>
           </Link>
 
           <Link href="tel:+447572794778" isExternal>
             <Box>
               <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>WhatsApp</Text>
+              <Text mt={0.5}>WhatsApp</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box>
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>CV</Text>
+              <Text mt={0.5}>CV/Resume</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box>
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>Portfolio Deck</Text>
+              <Text mt={0.5}>Portfolio Deck</Text>
             </Box>
           </Link>
 
           <Link href="https://www.calendly.com/oliverbonallack" isExternal>
             <Box>
               <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={2}>Calendly</Text>
+              <Text mt={0.5}>Calendly</Text>
             </Box>
           </Link>
         </SimpleGrid>
