@@ -51,17 +51,14 @@ const Index = () => {
 
         <Link href="https://www.oliverbonallack.com" isExternal>
           <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Portfolio</Text>
         </Link>
 
         <Link href="https://www.oliverbonallack.com" isExternal>
           <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>CV</Text>
         </Link>
 
         <Link href="https://www.calendly.com/oliverbonallack" isExternal>
           <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Calendly</Text>
         </Link>
 
       </SimpleGrid>
