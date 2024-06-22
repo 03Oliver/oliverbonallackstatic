@@ -33,54 +33,53 @@ const Index = () => {
         </Box>
       </Box>
       <Flex justify="center" align="center" width="100%">
-        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} textAlign="center">
+        <SimpleGrid columns={{ base: 2, md: 3 }} spacing={8} textAlign="center">
           <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
             <Box textAlign="center">
               <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">LinkedIn</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">LinkedIn</Text>
             </Box>
           </Link>
 
           <Link href="https://www.youtube.com/@collectivevc" isExternal>
             <Box textAlign="center">
               <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">YouTube</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">YouTube</Text>
             </Box>
           </Link>
 
           <Link href="https://collectivevc.substack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Substack</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Substack</Text>
             </Box>
           </Link>
 
           <Link href="tel:+447572794778" isExternal>
             <Box textAlign="center">
               <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">WhatsApp</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">WhatsApp</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">CV</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">CV</Text>
             </Box>
           </Link>
-        </SimpleGrid>
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} textAlign="center">
+
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Portfolio Deck</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Portfolio Deck</Text>
             </Box>
           </Link>
 
           <Link href="https://www.calendly.com/oliverbonallack" isExternal>
             <Box textAlign="center">
               <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Calendly</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Calendly</Text>
             </Box>
           </Link>
         </SimpleGrid>
