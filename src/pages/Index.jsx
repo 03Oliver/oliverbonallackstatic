@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Container, SimpleGrid, Link, Box, keyframes } from "@chakra-ui/react";
-import { FaEnvelope, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaCalendar, FaEnvelope, FaFilePdf, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const typing = keyframes`
   from { width: 0 }
@@ -13,7 +13,7 @@ const blink = keyframes`
 
 const Index = () => {
   const [text, setText] = useState("");
-  const fullText = "collective.vc";
+  const fullText = "Oliver Bonallack";
   const indexRef = useRef(0);
 
   useEffect(() => {
@@ -33,21 +33,36 @@ const Index = () => {
         </Box>
       </Box>
       <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} textAlign="center">
-        <Link href="https://www.linkedin.com/company/collectivevc" isExternal>
+        <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
           <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Profile</Text>
         </Link>
 
         <Link href="https://www.youtube.com/@collectivevc" isExternal>
           <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Podcast</Text>
         </Link>
 
-        <Link href="https://collectivevc.substack.com" isExternal>
+        <Link href="https://www.collectivevc.substack.com" isExternal>
           <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Newsletter</Text>
         </Link>
 
-        <Link href="https://chat.whatsapp.com/CcIGrlvEwuG9pnvl7COITj" isExternal>
-          <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+        <Link href="https://www.oliverbonallack.com" isExternal>
+          <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Portfolio</Text>
         </Link>
+
+        <Link href="https://www.calendly.com/oliverbonallack" isExternal>
+          <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Calendly</Text>
+        </Link>
+
+        <Link href="https://www.oliverbonallack.com" isExternal>
+          <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>CV</Text>
+        </Link>
+
       </SimpleGrid>
     </Container>
   );
