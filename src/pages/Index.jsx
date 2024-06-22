@@ -37,49 +37,49 @@ const Index = () => {
           <Link href="https://www.linkedin.com/in/oliverbonallack" isExternal>
             <Box textAlign="center">
               <Box as={FaLinkedin} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">LinkedIn</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">LinkedIn</Text>
             </Box>
           </Link>
 
           <Link href="https://www.youtube.com/@collectivevc" isExternal>
             <Box textAlign="center">
               <Box as={FaYoutube} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">YouTube</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">YouTube</Text>
             </Box>
           </Link>
 
           <Link href="https://collectivevc.substack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaEnvelope} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Substack</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Substack</Text>
             </Box>
           </Link>
 
           <Link href="tel:+447572794778" isExternal>
             <Box textAlign="center">
               <Box as={FaWhatsapp} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">WhatsApp</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">WhatsApp</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">CV</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">CV</Text>
             </Box>
           </Link>
 
           <Link href="https://www.oliverbonallack.com" isExternal>
             <Box textAlign="center">
               <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Portfolio Deck</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Portfolio Deck</Text>
             </Box>
           </Link>
 
           <Link href="https://www.calendly.com/oliverbonallack" isExternal>
             <Box textAlign="center">
               <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold">Calendly</Text>
+              <Text mt={0.5} fontFamily="Roboto, sans-serif" fontWeight="bold" textAlign="center">Calendly</Text>
             </Box>
           </Link>
         </SimpleGrid>
