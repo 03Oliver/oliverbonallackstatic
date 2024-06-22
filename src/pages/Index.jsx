@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Container, SimpleGrid, Link, Box, keyframes } from "@chakra-ui/react";
-import { FaEnvelope, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaCalendar, FaEnvelope, FaFilePdf, FaLinkedin, FaNewspaper, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const typing = keyframes`
   from { width: 0 }
@@ -54,14 +54,14 @@ const Index = () => {
           <Text mt={2}>Portfolio</Text>
         </Link>
 
-        <Link href="https://www.calendly.com/oliverbonallack" isExternal>
-          <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
-          <Text mt={2}>Calendly</Text>
-        </Link>
-
         <Link href="https://www.oliverbonallack.com" isExternal>
           <Box as={FaFilePdf} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
           <Text mt={2}>CV</Text>
+        </Link>
+
+        <Link href="https://www.calendly.com/oliverbonallack" isExternal>
+          <Box as={FaCalendar} size="48px" _hover={{ transform: "scale(1.1)" }} transition="transform 0.2s" />
+          <Text mt={2}>Calendly</Text>
         </Link>
 
       </SimpleGrid>
