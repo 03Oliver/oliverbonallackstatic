@@ -26,7 +26,7 @@ const Index = () => {
   }, [fullText]);
 
   return (
-    <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bgGradient="linear(to-r, white, lightblue)" color="black" fontFamily="Roboto, sans-serif" overflow="hidden">
+    <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" justifyItems="center" alignItems="center" bgGradient="linear(to-r, white, lightblue)" color="black" fontFamily="Roboto, sans-serif" overflow="hidden">
       <Box textAlign="center" mb={8}>
         <Box as="pre" fontSize="3xl" fontWeight="bold" whiteSpace="nowrap" overflow="hidden" borderRight="2px solid" animation={`${typing} 4s steps(${fullText.length}), ${blink} 0.75s step-end infinite`}>
           {text}
